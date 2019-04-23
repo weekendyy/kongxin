@@ -15,7 +15,7 @@
       </el-dropdown-menu>
     </el-dropdown>
   </div>
-  <ve-line :data="chartData" :settings="chartSettings"></ve-line>
+  <ve-line :data="chartData" width="100%" height="500px" :settings="chartSettings"></ve-line>
 </div>
 
 </template>
